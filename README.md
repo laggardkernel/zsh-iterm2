@@ -1,13 +1,13 @@
-# zsh-iTerm2
+# ZSH-iTerm2
 
 [![License: MIT][license icon]][license]
 
 Pack iTerm's ZSH integration scripts into a ZSH plugin, avoid polluting your
-`$HOME` directory.
+`$HOME` directory, with negligible time increase of 2ms.
 
 ## Installation
 
-### [Zplugin][zplugin]
+### [zplugin][zplugin]
 
 The only ZSH plugin manager solves the time-consuming init for `nvm`, `nodenv`, `pyenv`, `rvm`, `rbenv`, `thefuck`, `fasd`, etc, with its amazing async [Turbo Mode][turbo mode].
 
@@ -16,14 +16,14 @@ zplugin ice pick'init.zsh' compile'*.zsh'
 zplugin light laggardkernel/zsh-iterm2
 ```
 
-### [Prezto][prezto]
+### [prezto][prezto]
 
 The only framework does **optimizations** in plugins with sophisticated coding skill:
-- [Refreshing `.zcompdump` every 20h][prezto zcompdump 1]
-- [Compiling `.zcompdump` as bytecode in the background][prezto zcompdump 2]
-- [Caching init script for fasd][prezto fasd]
-- Saving `*env` startup time with [`init - --no-rehash` for `rbenv`, `pyenv`, `nodenv`][prezto *env]
-- [Removing the horribly time-consuming `brew command` from `command-not-found`][prezto brew command]
+- [refreshing `.zcompdump` every 20h][prezto zcompdump 1]
+- [compiling `.zcompdump` as bytecode in the background][prezto zcompdump 2]
+- [caching init script for fasd][prezto fasd]
+- saving `*env` startup time with [`init - --no-rehash` for `rbenv`, `pyenv`, `nodenv`][prezto *env]
+- [removing the horribly time-consuming `brew command` from `command-not-found`][prezto brew command]
 
 ```zsh
 mkdir -p ${ZDOTDIR:-$HOME}/.zprezto/contrib &>/dev/null
@@ -32,7 +32,7 @@ git clone https://github.com/laggardkernel/zsh-iterm2.git ${ZDOTDIR:-$HOME}/.zpr
 
 ## License
 
-The MIT License (MIT)
+The GPL-2.0-only License
 
 Copyright (c) 2019 laggardkernel
 
