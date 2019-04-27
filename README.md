@@ -1,6 +1,6 @@
 # ZSH-iTerm2
 
-[![License: MIT][license icon]][license]
+[![License: GPL-2.0][license icon]][license]
 
 Pack iTerm's ZSH integration scripts into a ZSH plugin, avoid polluting your
 `$HOME` directory, with negligible time increase of 2ms.
@@ -36,8 +36,8 @@ The GPL-2.0-only License
 
 Copyright (c) 2019 laggardkernel
 
-[license icon]: https://img.shields.io/badge/License-MIT-blue.svg
-[license]: https://opensource.org/licenses/MIT
+[license icon]: https://img.shields.io/badge/License-GPL--2.0-blue.svg
+[license]: https://opensource.org/licenses/GPL-2.0
 [zplugin]: https://github.com/zdharma/zplugin
 [turbo mode]: https://github.com/zdharma/zplugin#turbo-mode-zsh--53
 [prezto]: https://github.com/sorin-ionescu/prezto
